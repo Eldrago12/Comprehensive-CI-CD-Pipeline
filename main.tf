@@ -1,9 +1,3 @@
-provider "aws" {
-    region = var.region
-    access_key = "AKIA3XAKZTRYVJSCOF5R"
-    secret_key = "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"
-}
-
 
 resource "aws_vpc" "production_vpc" {
     cidr_block = var.vpc_cidr
